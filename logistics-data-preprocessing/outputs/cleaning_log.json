@@ -1,0 +1,39 @@
+{
+  "rows_raw": 3085,
+  "missing_before": {
+    "city": 62,
+    "discount": 121,
+    "weight": 187,
+    "days_real": 92
+  },
+  "duplicates_before": 85,
+  "shipping_mode_labels_before": 14,
+  "city_labels_before": 24,
+  "rows_after_dedupe": 3000,
+  "shipping_mode_labels_after": 4,
+  "city_labels_after": 8,
+  "unparsed_dates": 0,
+  "weights_in_grams_fixed": 180,
+  "impossible_days_real": 29,
+  "price_outliers_iqr": 81,
+  "price_outliers_z3": 15,
+  "price_cap_upper": 4428.7,
+  "missing_filled": {
+    "weight_kg": 180,
+    "days_real": 119,
+    "discount": 120,
+    "city": 60
+  },
+  "rows_final": 3000,
+  "missing_after": 0,
+  "naive_rows_kept": 2050,
+  "clean_rows_kept": 2250,
+  "naive_r2_mae": [
+    -0.117,
+    1.86
+  ],
+  "clean_r2_mae": [
+    0.754,
+    0.83
+  ]
+}
