@@ -1,0 +1,226 @@
+{
+  "n": 3821,
+  "desc": {
+    "distance_km": {
+      "mean": 678.13,
+      "median": 510.0,
+      "std": 599.99,
+      "min": 30.0,
+      "max": 6123.0,
+      "skew": 2.43
+    },
+    "weight_kg": {
+      "mean": 373.27,
+      "median": 320.0,
+      "std": 255.08,
+      "min": 16.0,
+      "max": 2213.6,
+      "skew": 1.4
+    },
+    "units": {
+      "mean": 86.13,
+      "median": 66.0,
+      "std": 74.64,
+      "min": 2.0,
+      "max": 653.0,
+      "skew": 2.4
+    },
+    "dwell_hours": {
+      "mean": 7.4,
+      "median": 5.8,
+      "std": 5.34,
+      "min": 1.1,
+      "max": 51.0,
+      "skew": 2.09
+    },
+    "transit_hours": {
+      "mean": 21.29,
+      "median": 18.1,
+      "std": 13.34,
+      "min": 2.0,
+      "max": 148.0,
+      "skew": 1.94
+    },
+    "total_cost": {
+      "mean": 4798.1,
+      "median": 3319.0,
+      "std": 5405.31,
+      "min": 406.0,
+      "max": 67479.0,
+      "skew": 4.24
+    },
+    "cost_per_km": {
+      "mean": 8.56,
+      "median": 6.88,
+      "std": 6.21,
+      "min": 2.51,
+      "max": 120.26,
+      "skew": 4.99
+    }
+  },
+  "on_time_pct": 69.3,
+  "mode_share_pct": {
+    "Road": 61.7,
+    "Rail": 26.4,
+    "Air": 11.9
+  },
+  "corr_cost": {
+    "distance_km": 0.81,
+    "weight_kg": 0.14,
+    "units": 0.13,
+    "dwell_hours": 0.09,
+    "transit_hours": 0.07,
+    "cost_per_km": 0.06
+  },
+  "corr_transit_dwell": 0.42,
+  "monthly": {
+    "month": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "shipments": [
+      242,
+      242,
+      221,
+      230,
+      274,
+      262,
+      290,
+      277,
+      266,
+      532,
+      491,
+      494
+    ],
+    "avg_cost": [
+      4769.68,
+      5048.86,
+      4442.5,
+      4765.02,
+      4196.04,
+      4444.48,
+      4411.67,
+      5339.78,
+      4227.78,
+      4968.3,
+      5160.92,
+      5071.44
+    ],
+    "on_time": [
+      0.8,
+      0.75,
+      0.82,
+      0.79,
+      0.8,
+      0.84,
+      0.76,
+      0.76,
+      0.77,
+      0.59,
+      0.52,
+      0.55
+    ]
+  },
+  "mode_cost": {
+    "Air": {
+      "mean": 15574.0,
+      "median": 13399.0
+    },
+    "Rail": {
+      "mean": 3771.0,
+      "median": 3409.0
+    },
+    "Road": {
+      "mean": 3153.0,
+      "median": 2952.0
+    }
+  },
+  "mode_cost_per_km": {
+    "Air": 12.04,
+    "Rail": 5.46,
+    "Road": 9.21
+  },
+  "slope_rs_per_km": {
+    "Road": 4.04,
+    "Rail": 2.67,
+    "Air": 10.44
+  },
+  "hub_dwell": {
+    "Hub 1": 6.02,
+    "Hub 2": 5.83,
+    "Hub 3": 12.01,
+    "Hub 4": 5.99,
+    "Hub 5": 5.88
+  },
+  "carrier_on_time": {
+    "Carrier A": 73.8,
+    "Carrier B": 73.8,
+    "Carrier C": 54.7,
+    "Carrier D": 72.6
+  },
+  "weekday_dwell": {
+    "Monday": 8.58,
+    "Tuesday": 6.64,
+    "Wednesday": 6.89,
+    "Thursday": 6.93,
+    "Friday": 6.67,
+    "Saturday": 7.18,
+    "Sunday": 7.04
+  },
+  "season": {
+    "Jan-Sep": {
+      "on_time": 78.5,
+      "dwell": 6.6,
+      "cost": 4622.9
+    },
+    "Oct-Dec peak": {
+      "on_time": 55.4,
+      "dwell": 8.7,
+      "cost": 5064.2
+    }
+  },
+  "peak_vs_rest_transit": {
+    "peak_mean": 23.4,
+    "rest_mean": 19.9,
+    "t": 7.7,
+    "p_value": 1.520516847082857e-14
+  },
+  "cost_driver_r2": 0.885,
+  "cost_driver_std_coef": {
+    "distance_km": 3617.0,
+    "weight_kg": 697.0,
+    "dwell_hours": 299.0,
+    "mode_Rail": -3941.0,
+    "mode_Road": -3308.0
+  },
+  "cost_share_pct": {
+    "Air": {
+      "fuel_cost": 83.3,
+      "handling_cost": 6.0,
+      "labour_cost": 10.7,
+      "toll_cost": 0.0
+    },
+    "Rail": {
+      "fuel_cost": 41.5,
+      "handling_cost": 26.5,
+      "labour_cost": 32.0,
+      "toll_cost": 0.0
+    },
+    "Road": {
+      "fuel_cost": 37.2,
+      "handling_cost": 29.2,
+      "labour_cost": 25.7,
+      "toll_cost": 7.9
+    }
+  }
+}
